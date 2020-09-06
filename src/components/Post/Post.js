@@ -32,7 +32,7 @@ const Post = (props) => {
                 color="primary"
                 className={classes.button}
             >
-                See Full Post
+            See ALL
             </Button>
             
         </div>

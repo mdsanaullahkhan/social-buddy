@@ -47,12 +47,12 @@ const PostDetails = () => {
 
     for(let i = 0; i<comments.length ;i++){
         const random = Math.floor(Math.random() * 90 + 1);
-        comments[i].image = `https://randomuser.me/api/portraits/women/${random}.jpg`;
+        comments[i].image = `https://randomuser.me/api/portraits/men/${random}.jpg`;
     }
     return (
         <div style={{ width: '60%', margin: 'auto' }}>
             <div style={{ width:'92%',backgroundColor:'#00CED1',padding:'10px 20px',marginTop:'20px',borderRadius:'5px'}}>
-                <h3>Post Details : </h3>
+                <h3>See More : </h3>
             </div>
             <div style={{ marginTop: '20px'}}>
                 <Card className={classes.root}>
